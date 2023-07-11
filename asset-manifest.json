@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dixitji99/static/css/main.42f42819.css",
+    "main.js": "/dixitji99/static/js/main.876ab076.js",
+    "static/js/787.c8e3a3ef.chunk.js": "/dixitji99/static/js/787.c8e3a3ef.chunk.js",
+    "static/media/profileImage.jpg": "/dixitji99/static/media/profileImage.8778efaa42f625c03f62.jpg",
+    "static/media/linkedin_icon.svg": "/dixitji99/static/media/linkedin_icon.54b84bf83dbde062508e4d4ba558043a.svg",
+    "static/media/phone_r_icon.svg": "/dixitji99/static/media/phone_r_icon.7e37236a1a9a6eaf75430664ee1ce071.svg",
+    "static/media/mail_r_icon.svg": "/dixitji99/static/media/mail_r_icon.e2ab1b422dd662aac6268c68c4d1f5de.svg",
+    "static/media/location_icon.svg": "/dixitji99/static/media/location_icon.2b7f0cff38524a282148cccff1b364b2.svg",
+    "index.html": "/dixitji99/index.html",
+    "main.42f42819.css.map": "/dixitji99/static/css/main.42f42819.css.map",
+    "main.876ab076.js.map": "/dixitji99/static/js/main.876ab076.js.map",
+    "787.c8e3a3ef.chunk.js.map": "/dixitji99/static/js/787.c8e3a3ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42f42819.css",
+    "static/js/main.876ab076.js"
+  ]
+}
