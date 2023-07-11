@@ -1,0 +1,32 @@
+@import "../../style/index.scss";
+
+.skills {
+  &__headers {
+    max-width: 13%;
+    padding: 10px 0 0;
+    font-weight: 600;
+    color: aqua;
+  }
+
+  &__technical,
+  &__tools {
+    margin-bottom: 10px;
+    &--header {
+      font-weight: 600;
+      color: aquamarine;
+      padding-left: 2%;
+    }
+
+    &--set {
+      padding: 2% 0 0 5%;
+      display: inline-flex;
+      flex-wrap: wrap;
+      column-gap: 15px;
+      row-gap: 5px;
+    }
+  }
+}
+
+.underline {
+  @include line_separator;
+}

@@ -1,0 +1,20 @@
+@import "../../style/index.scss";
+
+.languages {
+  &__headers {
+    max-width: 13%;
+    padding: 10px 0 0;
+    font-weight: 600;
+    color: aqua;
+  }
+
+  &__data {
+    padding-left: 2%;
+    display: flex;
+    gap: 20%;
+  }
+}
+
+.underline {
+  @include line_separator;
+}

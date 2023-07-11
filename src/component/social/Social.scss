@@ -1,0 +1,66 @@
+@import "../../style/index.scss";
+
+@mixin media-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 30px;
+}
+
+.social_media {
+  &__items {
+    // background-color: rgb(68, 6, 121);
+    box-shadow: none;
+    margin: 0 3%;
+    display: grid;
+    grid-template-areas:
+      "email phone"
+      "linkedin location";
+    flex-wrap: wrap;
+    font-weight: 500;
+
+    svg {
+      width: 20px;
+      fill: white;
+    }
+
+    a {
+      &:link,
+      &:visited {
+        color: white;
+      }
+      &:hover {
+        text-decoration: underline;
+        color: rgb(116, 142, 198);
+      }
+    }
+
+    &--email {
+      @include media-item();
+      grid-area: email;
+      svg {
+        fill: none;
+      }
+    }
+
+    &--linkedin {
+      @include media-item();
+      grid-area: linkedin;
+    }
+
+    &--phone {
+      @include media-item();
+      grid-area: phone;
+    }
+
+    &--location {
+      @include media-item();
+      grid-area: location;
+    }
+  }
+
+  .seperator {
+    @include line_separator;
+    margin-top: 0;
+  }
+}

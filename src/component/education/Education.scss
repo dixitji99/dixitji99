@@ -1,0 +1,38 @@
+@import "../../style/index.scss";
+
+.education {
+  &__headers {
+    max-width: 13%;
+    padding: 10px 0 0;
+    font-weight: 600;
+    color: aqua;
+  }
+
+  &__data {
+    padding-left: 2%;
+    &--college {
+      font-weight: 600;
+      color: aquamarine;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+
+      a {
+        &:link,
+        &:visited {
+          color: aquamarine;
+        }
+        &:hover {
+          color: cadetblue;
+        }
+      }
+    }
+    &--course {
+      font-style: italic;
+    }
+  }
+}
+
+.underline {
+  @include line_separator;
+}
