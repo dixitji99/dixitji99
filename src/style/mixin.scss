@@ -1,0 +1,6 @@
+@mixin line_separator {
+  color: $light_grey;
+  background-color: $light_grey;
+  height: 1px;
+  width: 100%;
+}

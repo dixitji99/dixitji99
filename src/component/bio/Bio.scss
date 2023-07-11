@@ -1,0 +1,63 @@
+@import "../../style/index.scss";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+
+  &_profile_image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid white;
+
+    &:hover {
+      border: 2px solid aqua;
+      transform: scale(1.1);
+      box-shadow: 0 0 10px aqua;
+      transition: border 0.5s, box-shadow 0.5s, transform 0.5s;
+    }
+  }
+
+  &__name {
+    margin: 4px 0;
+    font-weight: 600;
+    &:hover {
+      color: wheat;
+      text-shadow: 0 0 3px #ff0000;
+      transition: color 1s, text-shadow 1s;
+    }
+  }
+
+  &__designation {
+    margin: 0;
+    font-weight: 500;
+    color: rgb(174, 149, 149);
+    font-style: italic;
+
+    &:hover {
+      color: wheat;
+      text-shadow: 0 0 3px #ff0000;
+      transition: color 1s, text-shadow 1s;
+    }
+  }
+}
+
+.objective {
+  padding: 0 25px;
+  display: flex;
+  font-size: small;
+  margin-top: 5px;
+  color: $light_grey;
+
+  &:hover {
+    color: rgb(50, 184, 102);
+    transition: color 1.1s;
+  }
+}
+
+.seperator {
+  @include line_separator;
+  margin-top: 20px;
+}
